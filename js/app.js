@@ -1,4 +1,4 @@
-let posts=[ ];
+let posts=[];
 
 const likedPostsId = [];
 const reportedPostsId = [];
@@ -62,7 +62,7 @@ const createPost = (post) => {
                     target="_blank"
                     class="post__avatar"
                   >
-                    <img src="${image}" alt="User Picture" /> 
+                    <img src="${post.userImage}" alt="User Picture" /> 
                   </a>
                   <a href="#" class="post__user">phero</a>
                 </div>
